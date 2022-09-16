@@ -1,68 +1,68 @@
 /* --------- 
-    RESET 
- ---------- */
- * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
- }
- /* --------- 
-    MAIN 
- ---------- */
- .container {
-    max-width: 1000px;
-    margin: auto;
- }
- .clearfix::after {
-    content: "";
-    display: block;
-    clear: both;
+   RESET 
+---------- */
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+/* --------- 
+   MAIN  
+---------- */
+.container {
+   max-width: 1000px;
+   margin: auto;
+}
+.clearfix::after {
+   content: "";
+   display: block;
+   clear: both;
 }
 /* --- team-intro --- */
 .team-intro {
-    padding: 40px 0;
+   padding: 40px 0;
 }
 div.team-intro > p{
-    padding-top: 40px;
+   padding-top: 40px;
 }
 /* --- team-cards --- */
 .team-card {
    height: 100px;
-    width: calc(100% / 3 - 30px);
-    margin: 15px;
-    background-color: black;
-    color: white;
-    float: left;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+   width: calc(100% / 3 - 30px);
+   margin: 15px;
+   background-color: black;
+   color: white;
+   float: left;
+   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 .card-img {
-    display: block;
-    height: 100%;
-    float: left;
+   display: block;
+   height: 100%;
+   float: left;
 }
 .card-text {
-    padding: 15px 0 15px 15px;
-    line-height: calc(70px / 3);
-    float: left;
-    vertical-align: middle;
+   padding: 15px 0 15px 15px;
+   line-height: calc(70px / 3);
+   float: left;
+   vertical-align: middle;
 }
- /* --------- 
-    TYPOGRAPHY 
- ---------- */
- body {
-    font-family: 'Fredoka', sans-serif;
- }
- h1 {
-    color: #E53170;
- }
- .team-intro {
-    text-align: center;
- }
- div.card-text a {
-    color: aqua;
-    text-decoration: none;
- }
- div.card-text span, div.card-text a {
-    font-weight: 400;
-    font-size: 12px;
- }
+/* --------- 
+   TYPOGRAPHY 
+---------- */
+body {
+   font-family: 'Fredoka', sans-serif;
+}
+h1 {
+   color: #E53170;
+}
+.team-intro {
+   text-align: center;
+}
+div.card-text a {
+   color: aqua;
+   text-decoration: none;
+}
+div.card-text span, div.card-text a {
+   font-weight: 400;
+   font-size: 12px;
+}
